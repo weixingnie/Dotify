@@ -5,29 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".MainActivity">
+    tools:context=".PlayerActivity">
 
-    <TextView
-        android:id="@+id/username"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="first_avenger"
-        android:textColor="@color/black"
-        app:layout_constraintTop_toTopOf="@id/changeUser"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/changeUser"
-        android:gravity="center"
-         />
-
-    <Button
-        android:id="@+id/changeUser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CHANGE USER"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:onClick="switchUser"
-        />
 
     <ImageView
         android:id="@+id/musicCover"
@@ -37,8 +16,8 @@
         android:background="#3F5185"
         android:contentDescription="a picture of music album"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintTop_toBottomOf="@id/changeUser"
-        app:layout_constraintStart_toStartOf="@id/username"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/strangers_cover_art"
         />
 
@@ -122,15 +101,4 @@
             />
     </LinearLayout>
 
-    <EditText
-        android:id="@+id/inputUserName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="New Username"
-        app:layout_constraintTop_toTopOf="@id/changeUser"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/changeUser"
-        android:visibility="invisible"
-         />
 </androidx.constraintlayout.widget.ConstraintLayout>
