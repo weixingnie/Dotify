@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:clickable="true"
+    android:id="@+id/ivSongBlock"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/ivSongCover"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="album Cover"
+        />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="@+id/ivSongCover"
+        app:layout_constraintBottom_toBottomOf="@id/ivSongCover"
+        app:layout_constraintStart_toEndOf="@id/ivSongCover"
+        >
+
+        <TextView
+            android:id="@+id/ivSongTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="song title"
+            android:textSize="20sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="16dp"
+            />
+
+        <TextView
+            android:id="@+id/ivArtistName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="artist name"
+            android:textSize="20sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+edu/uw/wn5/dotify/databinding/ActivitySongListBinding.java
+ edu.uw.wn5.dotify.databinding.ActivitySongListBinding
+edu/uw/wn5/dotify/BuildConfig.java
+ edu.uw.wn5.dotify.BuildConfig
+edu/uw/wn5/dotify/databinding/ActivityPlayerBinding.java
+ edu.uw.wn5.dotify.databinding.ActivityPlayerBinding
+edu/uw/wn5/dotify/databinding/MusicListBinding.java
+ edu.uw.wn5.dotify.databinding.MusicListBinding
