@@ -10,4 +10,4 @@ they can jump to the actual music player.
 I have completed extra credit No.1.
 
 # Screenshots
-![Dotify Image](/hw2.jpg)
+![Dotify Image](/hw2.png)
