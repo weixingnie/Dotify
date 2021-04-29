@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="horizontal"
+    app:flow_wrapMode="aligned"
+    tools:context=".PlayerActivity">
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/musicCover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="a picture of music album"
+        app:srcCompat="@drawable/strangers_cover_art"
+        app:layout_constraintTop_toBottomOf="@id/btnSettings"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/albumName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strangers"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintTop_toBottomOf="@id/btnSettings"
+        app:layout_constraintStart_toEndOf="@id/musicCover"
+        app:layout_constraintEnd_toEndOf="@id/btnSettings"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/artistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintTop_toBottomOf="@id/albumName"
+        app:layout_constraintStart_toEndOf="@id/musicCover"
+        app:layout_constraintEnd_toEndOf="@id/btnSettings"
+        android:text="Seven Lions featuring Tove Lo, Myon, Sharman, Albert Einstein"
+        android:textAlignment="center"
+        android:paddingTop="16dp"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/playTimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/artistName"
+        app:layout_constraintStart_toStartOf="@id/albumName"
+        app:layout_constraintEnd_toEndOf="@id/albumName"
+        android:paddingTop="16dp"
+        android:text="3000 times"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/playTimes"
+        app:layout_constraintStart_toStartOf="@id/albumName"
+        app:layout_constraintEnd_toEndOf="@id/albumName"
+        android:paddingTop="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/previousButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="prevSong"
+            android:paddingRight="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_previous" />
+
+        <ImageView
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="playSong"
+            app:layout_constraintStart_toEndOf="@id/previousButton"
+            app:srcCompat="@drawable/ic_play" />
+
+        <ImageView
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="nextSong"
+            android:paddingLeft="30dp"
+            app:layout_constraintStart_toEndOf="@id/playButton"
+            app:srcCompat="@drawable/ic_next" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
