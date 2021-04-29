@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/settingsFragment">
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="edu.uw.wn5.dotify.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <argument
+            android:name="playCount"
+            app:argType="integer" />
+        <argument
+            android:name="songName"
+            app:argType="com.ericchee.songdataprovider.Song" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="edu.uw.wn5.dotify.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:label="fragment_statistics"
+        android:name="edu.uw.wn5.dotify.StatisticsFragment"
+        tools:layout="@layout/fragment_statistics">
+        <argument
+            android:name="playCount"
+            app:argType="integer" />
+        <argument
+            android:name="songName"
+            app:argType="com.ericchee.songdataprovider.Song" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="edu.uw.wn5.dotify.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+
+</navigation>

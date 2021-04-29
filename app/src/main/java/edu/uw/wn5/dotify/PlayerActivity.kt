@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import android.text.TextUtils
 import android.view.View
 import com.ericchee.songdataprovider.Song
@@ -16,6 +17,7 @@ import edu.uw.wn5.dotify.databinding.ActivitySongListBinding
 
 
 private const val KEY = "song"
+private const val TIME = "time"
 
 /*
 * We are making a navigation to allow our user to transfer from the song selection page
@@ -43,6 +45,11 @@ class PlayerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityPlayerBinding.inflate(layoutInflater).apply { setContentView(root) }
+
+        if(savedInstanceState != null) {
+            currentValue = savedInstanceState.getInt(TIME, 0)
+        }
+
         binding.playTimes.text = currentValue.toString() +  " plays"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         with(binding) {
@@ -51,6 +58,7 @@ class PlayerActivity : AppCompatActivity() {
                 binding.musicCover.setImageResource(clickedSong.largeImageID)
                 binding.artistName.text = clickedSong.artist
                 binding.albumName.text = clickedSong.artist
+                btnSettings.setOnClickListener{navigateToSettingsActivity(this@PlayerActivity, clickedSong, currentValue)}
             }
         }
     }
@@ -76,6 +84,15 @@ class PlayerActivity : AppCompatActivity() {
         val playtimes = findViewById<TextView>(R.id.playTimes)
         currentValue += 1
         playtimes.text = currentValue.toString() +  " plays"
+    }
+
+
+    /*
+    * Save the current version of value count.
+    */
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.putInt(TIME, currentValue)
+        super.onSaveInstanceState(outState)
     }
 
 

@@ -4,6 +4,7 @@ package edu.uw.wn5.dotify.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -26,6 +27,9 @@ public final class ActivityPlayerBinding implements ViewBinding {
   public final TextView artistName;
 
   @NonNull
+  public final Button btnSettings;
+
+  @NonNull
   public final ImageView musicCover;
 
   @NonNull
@@ -41,12 +45,13 @@ public final class ActivityPlayerBinding implements ViewBinding {
   public final ImageView previousButton;
 
   private ActivityPlayerBinding(@NonNull ConstraintLayout rootView, @NonNull TextView albumName,
-      @NonNull TextView artistName, @NonNull ImageView musicCover, @NonNull ImageView nextButton,
-      @NonNull ImageView playButton, @NonNull TextView playTimes,
+      @NonNull TextView artistName, @NonNull Button btnSettings, @NonNull ImageView musicCover,
+      @NonNull ImageView nextButton, @NonNull ImageView playButton, @NonNull TextView playTimes,
       @NonNull ImageView previousButton) {
     this.rootView = rootView;
     this.albumName = albumName;
     this.artistName = artistName;
+    this.btnSettings = btnSettings;
     this.musicCover = musicCover;
     this.nextButton = nextButton;
     this.playButton = playButton;
@@ -93,6 +98,12 @@ public final class ActivityPlayerBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnSettings;
+      Button btnSettings = rootView.findViewById(id);
+      if (btnSettings == null) {
+        break missingId;
+      }
+
       id = R.id.musicCover;
       ImageView musicCover = rootView.findViewById(id);
       if (musicCover == null) {
@@ -124,7 +135,7 @@ public final class ActivityPlayerBinding implements ViewBinding {
       }
 
       return new ActivityPlayerBinding((ConstraintLayout) rootView, albumName, artistName,
-          musicCover, nextButton, playButton, playTimes, previousButton);
+          btnSettings, musicCover, nextButton, playButton, playTimes, previousButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

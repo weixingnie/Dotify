@@ -4,9 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="12dp"
     tools:context=".PlayerActivity">
 
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/musicCover"
+        android:text="SETTINGS"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"
+        />
 
     <ImageView
         android:id="@+id/musicCover"
@@ -16,7 +26,7 @@
         android:background="#3F5185"
         android:contentDescription="a picture of music album"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSettings"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/strangers_cover_art"
         />

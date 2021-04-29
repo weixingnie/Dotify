@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Dotify" >
+        <activity android:name="edu.uw.wn5.dotify.SettingsActivity" />
         <activity android:name="edu.uw.wn5.dotify.SongListActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

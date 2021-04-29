@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    >
+
+    <TextView
+        android:id="@+id/rvCreator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creator: Weixing Nie"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/rvVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/rvWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinkedIn: Weixing Nie"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/rvUniversity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University:University of Washington"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>

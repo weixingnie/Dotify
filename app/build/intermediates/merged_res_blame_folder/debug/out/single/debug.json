@@ -1,5 +1,37 @@
 [
     {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play.png.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\drawable\\ic_play.png"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_about.xml.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_song_list.xml.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\activity_song_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_previous.png.flat",
         "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\drawable\\ic_previous.png"
     },
@@ -12,20 +44,12 @@
         "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play.png.flat",
-        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\drawable\\ic_play.png"
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_statistics.xml.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\fragment_statistics.xml"
     },
     {
         "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -36,12 +60,12 @@
         "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_song_list.xml.flat",
-        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\activity_song_list.xml"
-    },
-    {
         "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\activity_settings.xml"
     },
     {
         "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\layout_music_list.xml.flat",
@@ -56,16 +80,20 @@
         "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_player.xml.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout-land\\activity_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_next.png.flat",
         "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\drawable\\ic_next.png"
-    },
-    {
-        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",

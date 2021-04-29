@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/rvProfilePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="profile_picture"
+        android:src="@drawable/yummy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/rvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baby Yoda"
+        android:textSize="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/rvIceCream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Vanilla"
+        android:textSize="20dp"
+        android:layout_marginLeft="16dp"
+       />
+
+    <TextView
+        android:id="@+id/rvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4396@uw.edu"
+        android:textSize="20dp"
+        android:layout_marginLeft="16dp"
+        />
+</LinearLayout>

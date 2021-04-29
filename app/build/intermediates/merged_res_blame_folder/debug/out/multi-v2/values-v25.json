@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\12069\\.gradle\\caches\\transforms-2\\files-2.1\\182c6f7fa206fcf9dfa64f742b56b7ac\\appcompat-1.2.0\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\12069\\.gradle\\caches\\transforms-2\\files-2.1\\a2106d35dd2ba6129d80a6123c0048d9\\appcompat-1.2.0\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

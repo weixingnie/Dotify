@@ -2,7 +2,17 @@ edu/uw/wn5/dotify/databinding/ActivitySongListBinding.java
  edu.uw.wn5.dotify.databinding.ActivitySongListBinding
 edu/uw/wn5/dotify/BuildConfig.java
  edu.uw.wn5.dotify.BuildConfig
+edu/uw/wn5/dotify/databinding/FragmentStatisticsBinding.java
+ edu.uw.wn5.dotify.databinding.FragmentStatisticsBinding
+edu/uw/wn5/dotify/databinding/FragmentAboutBinding.java
+ edu.uw.wn5.dotify.databinding.FragmentAboutBinding
 edu/uw/wn5/dotify/databinding/ActivityPlayerBinding.java
  edu.uw.wn5.dotify.databinding.ActivityPlayerBinding
+edu/uw/wn5/dotify/databinding/FragmentSettingsBinding.java
+ edu.uw.wn5.dotify.databinding.FragmentSettingsBinding
+edu/uw/wn5/dotify/databinding/ActivitySettingsBinding.java
+ edu.uw.wn5.dotify.databinding.ActivitySettingsBinding
 edu/uw/wn5/dotify/databinding/MusicListBinding.java
  edu.uw.wn5.dotify.databinding.MusicListBinding
+edu/uw/wn5/dotify/databinding/FragmentProfileBinding.java
+ edu.uw.wn5.dotify.databinding.FragmentProfileBinding

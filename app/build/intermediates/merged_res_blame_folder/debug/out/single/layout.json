@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
         "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\music_list.xml",
         "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\music_list.xml"
     },
@@ -8,15 +16,19 @@
         "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\activity_player.xml"
     },
     {
-        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activityplayer.xml",
-        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\activityplayer.xml"
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_about.xml",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\fragment_about.xml"
     },
     {
-        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_statistics.xml",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\fragment_statistics.xml"
     },
     {
         "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_song_list.xml",
         "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\activity_song_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\12069\\Desktop\\Class\\Info448\\Dotify\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     }
 ]
