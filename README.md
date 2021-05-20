@@ -12,4 +12,4 @@ o https://developer.android.com/training/swipe/add-swipe-interface
 implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
 
 # Screenshots
-![Dotify Image](/hw4.png)
+![API profile Image](/hw4.png)
