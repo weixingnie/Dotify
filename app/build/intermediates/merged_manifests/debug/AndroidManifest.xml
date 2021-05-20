@@ -8,7 +8,10 @@
         android:minSdkVersion="23"
         android:targetSdkVersion="30" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name="edu.uw.wn5.dotify.DotifyApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"

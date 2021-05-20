@@ -40,6 +40,7 @@ fun navigateToPlayerActivity(context: Context, clickedSong: Song) {
 * We are also changing the music cover, artist, album relying on the previous selected song.
 */
 class PlayerActivity : AppCompatActivity() {
+
     private var currentValue = Random.nextInt(0, 10000)
     private lateinit var binding: ActivityPlayerBinding
     override fun onCreate(savedInstanceState: Bundle?) {
