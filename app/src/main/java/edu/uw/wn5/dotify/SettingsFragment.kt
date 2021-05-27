@@ -18,6 +18,8 @@ import edu.uw.wn5.dotify.databinding.FragmentSettingsBinding
 class SettingsFragment : Fragment() {
     private val navController by lazy { findNavController() }
     private val safeArgs: SettingsFragmentArgs by navArgs()
+    private val application by lazy { context?.applicationContext as DotifyApplication}
+    private val musicSyn by lazy { application.musicSyncManager }
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -34,6 +36,15 @@ class SettingsFragment : Fragment() {
             btnAbout.setOnClickListener {
                 navController.navigate(R.id.aboutFragment)
             }
+
+            notificationButton.setOnCheckedChangeListener{ _, isChecked ->
+                if (isChecked) {
+                    musicSyn.syncMusicPeriodically()
+                } else {
+                    musicSyn.stopSync()
+                }
+            }
+
         }
         return binding.root
     }
